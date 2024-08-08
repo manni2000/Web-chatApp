@@ -39,7 +39,7 @@ The Web-chatApp is a real-time chat application that allows users to communicate
 
 3. **Setup Frontend:**
    ```bash
-   cd client
+   cd ../client
    npm install
    npm start
    ```
