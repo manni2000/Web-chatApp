@@ -54,3 +54,10 @@ The Web-chatApp is a real-time chat application that allows users to communicate
 5. **Access the Application**: Open your browser and navigate to `http://localhost:3000`
    
 # Preview
+
+![login](https://github.com/user-attachments/assets/555cee4b-545f-41eb-bb7a-2230db8d5cc6)
+
+![Signup](https://github.com/user-attachments/assets/7d9873bf-bcca-4c77-aec5-7655748f2f68)
+
+![chat](https://github.com/user-attachments/assets/bae10543-23b2-4456-ac48-1b9025431369)
+
