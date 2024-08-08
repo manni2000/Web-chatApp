@@ -17,7 +17,7 @@ The Web-chatApp is a real-time chat application that allows users to communicate
    - **JWT**: For securing user authentication.
 
 #### Functionality:
-- Real-time chat communication.
+- Real-time chat communication between two-parties.
 - User authentication and authorization.
 - Message history storage and retrieval.
 - Online status indication.
