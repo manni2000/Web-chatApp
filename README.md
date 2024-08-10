@@ -47,6 +47,7 @@ The Web-chatApp is a real-time chat application that allows users to communicate
 4. **Environment Variables:**
    - Create a `.env` file in the `server` directory with the following:
      ```env
+     PORT=8080
      MONGO_URI=your_mongodb_uri
      JWT_SECRET=your_jwt_secret
      ```
