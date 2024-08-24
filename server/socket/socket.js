@@ -1,14 +1,16 @@
 import {Server} from "socket.io";
+import cors from "cors";
 import http from "http";
 import express from "express";
 
 const app = express();
 
+app.use(cors());
+
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['*'],
-        methods:['GET', 'POST'],
+        origin:'*',
     },
 });
 
@@ -17,7 +19,6 @@ export const getReceiverSocketId = (receiverId) => {
 }
 
 const userSocketMap = {}; // {userId->socketId}
-
 
 io.on('connection', (socket)=>{
     const userId = socket.handshake.query.userId
